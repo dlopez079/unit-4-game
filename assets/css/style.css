@@ -1,4 +1,17 @@
-h1 {
+body {
+    background-image: url("../images/purple.crystal.JPG");
+}
+
+#container {
+    margin: 100px auto;
+    width: 100%;
+    max-width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+#head-row {
     background-color: orangered;
 }
 
@@ -41,3 +54,4 @@ h1 {
 .row {
     background-color: aqua;
 }
+
