@@ -18,7 +18,7 @@ body {
 }
 
 #instructions-row {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
 
 #cpuRandom-col {
@@ -35,36 +35,12 @@ body {
     color: white;
 }
 
-#redCrystal {
-    background-color: red;
-    width: 150 px;
-    height: 150 px;
-}
-
-#blueCrystal {
-    background-color: blue;
-    width: 150 px;
-    height: 150 px;
-}
-
-#yellowCrystal {
-    background-color: yellow;
-    width: 150 px;
-    height: 150 px;
-}
-
-#greenCrystal {
-    background-color: green;
-    width: 150 px;
-    height: 150 px;
-}
-
 .row {
     background-color: purple;
 }
 
 #image-row {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
 
 #win-col {
@@ -77,5 +53,5 @@ body {
 }
 
 #displayTotalScore-col {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
