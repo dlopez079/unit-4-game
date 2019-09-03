@@ -13,6 +13,7 @@ body {
 
 #head-row {
     background-color: orangered;
+    font-size: 35px;
 }
 
 #instructions-row {
@@ -21,10 +22,14 @@ body {
 
 #cpuRandom-col {
     background-color: green;
+    width: 50%;
+    float: left;
 }
 
 #results-col {
     background-color: lightskyblue;
+    width: 50%;
+    float: left;
 }
 
 #redCrystal {
@@ -55,3 +60,11 @@ body {
     background-color: aqua;
 }
 
+#image-row {
+    background-color: greenyellow;
+}
+
+#win-col {
+    width: 50%;
+    float: left;
+}
