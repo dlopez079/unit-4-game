@@ -6,14 +6,15 @@ body {
     margin: 100px auto;
     width: 100%;
     max-width: 960px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Muli', sans-serif;
     text-align: center;
     line-height: 50px;
 }
 
 #head-row {
-    background-color: orangered;
+    background-color: purple;
     font-size: 35px;
+    color: white;
 }
 
 #instructions-row {
@@ -21,15 +22,17 @@ body {
 }
 
 #cpuRandom-col {
-    background-color: green;
+    background-color: purple;
     width: 50%;
     float: left;
+    color: white;
 }
 
 #results-col {
-    background-color: lightskyblue;
+    background-color: purple;
     width: 50%;
     float: left;
+    color: white;
 }
 
 #redCrystal {
@@ -57,14 +60,22 @@ body {
 }
 
 .row {
-    background-color: aqua;
+    background-color: purple;
 }
 
 #image-row {
-    background-color: greenyellow;
+    background-color: lightgoldenrodyellow;
 }
 
 #win-col {
     width: 50%;
     float: left;
+}
+
+#totalScore-col {
+    color: White; 
+}
+
+#displayTotalScore-col {
+    background-color: lightgoldenrodyellow;
 }
