@@ -2,6 +2,14 @@ h1 {
     background-color: orangered;
 }
 
-.instructions {
+#instructions-row {
     background-color: lightgoldenrodyellow;
+}
+
+#cpuRandom-col {
+    background-color: green;
+}
+
+#results-col {
+    background-color: lightskyblue;
 }
