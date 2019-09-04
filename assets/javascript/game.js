@@ -40,6 +40,9 @@ var greenCrystalbtn;
 
 //INTIALIZE GAME - HOW GAME IS GOING TO START!***********************************************
 function iniGame() {
+
+    totalScoreNum = 0; //Score starts at 0
+
     // Multiply the math.random() to (Max - Min) + Min;
     randomNumber = Math.floor (Math.random() * (120 - 19) + 19);
 
