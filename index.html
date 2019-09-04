@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>Crystals Collector!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </head>
 <body>
 <div id="container">
-        <script src="assets/javascript/game.js"></script>
+        
 
     <div class="row" id="head-row"><h1>Crystals Collector</h1></div>
     <div class="row" id="instructions-row">
@@ -22,23 +24,23 @@
         <p>Each time when the game starts, the game will change the values of each cyrstal.</p>
     </div>
     <div class="row">
-        <div class="col" id="cpuRandom-col"><span id="randomNum"></span>##</div>
+        <div class="col" id="cpuRandom-col"><span id="randomNum"></span></div>
         <div class="col" id="results-col">
             <div class="col" id="win-col">WINS:  <span id="wins">##</span></div>
             <div class="col" id="lost-col">LOSSES: <span id="losses">##</span></div>     
         </div>
     </div>
     <div class="row" id="image-row">
-        <picture id="redCrystal">
-            <img src="assets/images/redCrystal.jpg" alt="Red Cyrstal">
+        <picture >
+            <img id="redCrystal-btn" src="assets/images/redCrystal.jpg" alt="Red Cyrstal">
         </picture>
-        <picture id="blueCrystal">
+        <picture id="blueCrystal-btn">
             <img src="assets/images/blueCrystal.jpg" alt="Blue Crystal">
         </picture>
-        <picture id="yellowCrystal">
+        <picture id="yellowCrystal-btn">
             <img src="assets/images/yellowCrystal.jpg" alt="Yellow Crystal">
         </picture>
-        <picture id="greenCrystal">
+        <picture id="greenCrystal-btn">
              <img src="assets/images/greenCrystal.jpg" alt="Green Crystal">  
         </picture>
     </div>
